@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6.0" type="sef_ext">
+    <name>Users</name>
+    <author>ARTIO s.r.o.</author>
+    <creationDate>10. January 2012</creationDate>
+    <copyright>ARTIO s.r.o.</copyright>
+    <license>GNU/GPLv3 http://www.artio.net/license/gnu-general-public-license</license>
+    <authorEmail>info@artio.net</authorEmail>
+    <authorUrl>www.artio.net</authorUrl>
+    <version>3.0.3</version>
+    <description>Adds SEO support for User component.</description>
+    <files>
+        <filename sef_ext="ext_joomsef4_users">com_user.php</filename>
+    </files>
+    <form>
+        <fieldset name="Extension">
+		    <field name="always_en" type="radio" class="btn-group" default="0" label="Always use English texts" description="If enabled, texts like 'Register' will not be localized in URLs. This may help with non-Latin characters like Chinese.">
+		      <option value="1">Yes</option>
+		      <option value="0">No</option>
+		    </field>
+        </fieldset>
+    </form>
+    <updateservers>
+          <server name="ext_joomsef4_users" type="sef_update">http://www.artio.net/joomla-updates/list/ext_joomsef4_users.xml</server>
+      </updateservers>
+</extension>

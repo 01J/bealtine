@@ -1,0 +1,195 @@
+div#cpanel {
+    margin-right: 15px;
+}
+
+div.icons h2 {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 110%;
+}
+
+/* To override the default Joomla behaviour,
+ * which causes loading of /administrator/separator URL */
+.icon-16-separator {
+    background: none !important;
+}
+
+.icon-32-install {
+  background-image: url('../images/install.png');
+}
+
+.icon-32-uninstall {
+  background-image: url('../images/uninstall.png');
+}
+
+.icon-32-upgrade {
+  background-image: url('../images/upgrade.png');
+}
+
+.icon-32-delete_f2 {
+  background-image: url('../images/delete_f2.png');
+}
+
+.icon-32-import {
+  background-image: url('../images/reload_f2.png');
+}
+
+.icon-32-export {
+  background-image: url('../images/download_f2.png');
+}
+
+.icon-32-clear {
+  background-image: url('../images/icon-32-clear.png');
+}
+
+.icon-32-xml {
+  background-image: url('../images/icon-32-xml.png');
+}
+
+.icon-32-services {
+  background-image: url('../images/icon-32-services.png');
+}
+
+.icon-32-google {
+  background-image: url('../images/icon-32-google.png');
+}
+
+.icon-32-yahoo {
+  background-image: url('../images/icon-32-yahoo.png');
+}
+
+.icon-32-bing {
+  background-image: url('../images/icon-32-bing.png');
+}
+
+.icon-48-artio {
+    background-image: url('../images/icon-48-artio.png');
+}
+
+.icon-48-edit {
+    background-image: url('../images/icon-48-edit.png');
+}
+
+.icon-48-update {
+    background-image: url('../images/icon-48-update.png');
+}
+
+.icon-48-docs {
+    background-image: url('../images/icon-48-docs.png');
+}
+
+.icon-48-help {
+    background-image: url('../images/icon-48-help.png');
+}
+
+.icon-48-info {
+    background-image: url('../images/icon-48-info.png');
+}
+
+.icon-48-manage-sitemap {
+    background-image: url('../images/icon-48-manage-sitemap.png');
+}
+
+.icon-48-manage-tags {
+    background-image: url('../images/icon-48-manage-tags.png');
+}
+
+.icon-48-manage-words {
+    background-image: url('../images/icon-48-manage-words.png');
+}
+
+.icon-48-301-redirects {
+    background-image: url('../images/icon-48-301-redirects.png');
+}
+
+.icon-48-url-edit {
+    background-image: url('../images/icon-48-url-edit.png');
+}
+
+.icon-48-url-delete {
+    background-image: url('../images/icon-48-url-delete.png');
+}
+
+.icon-48-url-user {
+    background-image: url('../images/icon-48-url-user.png');
+}
+
+.icon-48-404-logs {
+    background-image: url('../images/icon-48-404-logs.png');
+}
+
+.icon-48-url-update {
+    background-image: url('../images/icon-48-url-update.png');
+}
+
+.icon-48-web-crawl {
+    background-image: url('../images/icon-48-web-crawl.png');
+}
+
+.icon-48-cron {
+    background-image: url('../images/icon-48-cron.png');
+}
+
+.icon-48-statistics {
+    background-image: url('../images/icon-48-statistics.png');
+}
+
+.joomsef_feed {
+    padding: 10px 15px;
+}
+
+.feed-item {
+    margin-bottom: 15px;
+}
+
+.feed-title {
+    font-weight: bold;
+}
+
+table.admintable td 					 { padding: 3px; }
+table.admintable td.key,
+table.admintable td.paramlist_key {
+	background-color: #f6f6f6;
+	text-align: right;
+	width: 140px;
+	color: #666;
+	font-weight: bold;
+	border-bottom: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9;
+}
+
+input.classic,
+select.classic,
+button.classic {
+    float: none;
+    margin: 0px;
+}
+
+div#jsInfoText {
+    background: #c3d2e5 url('../images/notice-info.png') 5px 5px no-repeat;
+    padding: 10px 10px 10px 45px;
+    color: #05b;
+    font-weight: bold;
+    min-height: 20px;
+}
+
+/* Align extension parameters */
+fieldset.panelform div.control-label label { 
+    min-width: 250px;
+}
+
+/* To fix problems with Joomla 3 */
+.sef-width-60 {
+    width: 60%;
+}
+
+.sef-width-40 {
+    width: 40%;
+}
+
+.sef-width-100 {
+    width: 100%;
+}
+
+.sef-width-50 {
+    width: 50%;
+}

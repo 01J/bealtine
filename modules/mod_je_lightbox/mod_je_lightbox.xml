@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="module" client="site">
+	<name>JE LightBox</name> 
+	<author>jExtensions.com</author> 
+	<creationDate>2012 October</creationDate> 
+	<copyright>jExtensions.com</copyright> 
+	<license>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</license> 
+	<authorEmail>support@jExtensions.com</authorEmail> 
+	<authorUrl>http://jExtensions.com</authorUrl> 
+	<version>2.5.0</version> 
+	<description>
+	<![CDATA[
+	<h1>JE jQuery LightBox Module</h1>
+	<div style="margin:0 0 0 10px; font-size:15px;">Download more free extensions at <a href="http://jextensions.com" target="_blank">jExtensions.com</a>;
+	<br/><br/>Get support for this Joomla 2.5 module on the official <a href="http://jextensions.com/jquery-lightbox-joomla/" target="_blank">jQuery LightBox Module</a> page.</div><br/>
+	<div style="margin:0 0 0 10px; font-size:11px;">Credits: <a href="http://leandrovieira.com/projects/jquery/lightbox/" target="_blank" >LightBox</a></div>
+	<br/>
+		]]>
+	</description>
+	
+	<files>
+		<filename module="mod_je_lightbox">mod_je_lightbox.php</filename>
+		<filename>index.html</filename>
+		<filename>thumb.php</filename>
+		<folder>css/</folder>
+		<folder>images/</folder>
+		<folder>js/</folder>
+		<folder>php/</folder>
+	</files>
+
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_je_lightbox/php">
+		<fieldset name="basic">
+			<field name="jQuery" type="list" default="1" label="jQuery" description="Enable or disable jQuery plugin on this module.">
+				<option value="1">jQuery 1.2.3 (Load localy)</option>
+				<option value="2">jQuery Latest Version</option>
+				<option value="3">Disable jQuery Plugin</option>
+			</field>
+					
+			<field name="imageFolder" type="folderlist" directory="/images" filter="" exclude="" hide_none="0" hide_default="1" label="Images Folder" description="Please choose the folder where the images are located." />
+			
+
+			<field type="spacer" name="&lt;div style=&quot;color:#444; background:#D5EEFF; border:1px solid #a4cde9; font-size:15px; font-weight:bold; padding:3px; margin:0;&quot;&gt;Thumbs&lt;/div&gt;" />
+			
+			<field name="thumbWidth" type="text" default="100" label="Thumb Width" description="Width of images are in pixels." />
+			<field name="thumbHeight" type="text" default="100" label="Thumb Height" description="Height of images are in pixels." />
+			
+			<field name="thumbBorderColor" type="jscolor" default="#999999" label="Thumb Border Color" description="Set thumbnail border color." />	
+			<field name="thumbBorderWidth" type="text" default="1" label="Thumb Border Width" description="Width of border in pixels." />
+			<field name="thumbBorderColor2" type="jscolor" default="#555555" label="Thumb Border Hover Color" description="Set thumbnail hover border color." />	
+			
+			
+			<field name="thumbQuality" type="list" default="100" label="Thumb Quality" description="Quality of the croped thumbnail image.">
+				<option value="100">100%</option>
+				<option value="90">90%</option>
+				<option value="80">80%</option>
+				<option value="70">70%</option>
+				<option value="60">60%</option>
+				<option value="50">50%</option>
+				<option value="40">40%</option>
+				<option value="30">30%</option>
+				<option value="20">20%</option>
+				<option value="10">10%</option>
+			</field>
+			
+							
+			<field name="thumbAlign" type="list" default="true" label="Thumb Alignment" description="Choose the cropped image alignment.">
+				<option value="t">Top</option>
+				<option value="b">Bottom</option>
+				<option value="l">Left</option>
+				<option value="r">Right</option>
+			</field>
+	
+		</fieldset>
+	</fields>
+	</config>
+</extension>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6.0" type="plugin" group="extension">
+  <name>Extension Install - ARTIO JoomSEF</name>
+  <author>ARTIO s.r.o.</author>
+  <creationDate>21. October 2011</creationDate>
+  <copyright>ARTIO s.r.o.</copyright>
+  <license>GNU/GPLv3 http://www.artio.net/license/gnu-general-public-license</license>
+  <authorEmail>info@artio.net</authorEmail>
+  <authorUrl>www.artio.net</authorUrl>
+  <version>4.1.1</version>
+  <description>PLG_JOOMSEFINSTALL_XML_DESCRIPTION</description>
+  <files>
+    <filename plugin="joomsefinstall">joomsefinstall.php</filename>
+  </files>
+</extension>

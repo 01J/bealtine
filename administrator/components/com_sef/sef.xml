@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.6" method="upgrade">
+  <name>com_sef</name>
+  <creationDate>10. March 2015</creationDate>
+  <author>ARTIO s.r.o.</author>
+  <authorEmail>info@artio.net</authorEmail>
+  <authorUrl>http://www.artio.net</authorUrl>
+  <copyright>ARTIO s.r.o.</copyright>
+  <license>GNU/GPLv3 http://www.artio.net/license/gnu-general-public-license</license>
+  <version>4.6.2</version>
+  <description>COM_SEF_JOOMSEF_DESCRIPTION</description>
+
+  <scriptfile>install.php</scriptfile>
+  <update>
+    <schemas>
+      <schemapath type="mysql">sql</schemapath>
+    </schemas>
+  </update>
+
+  <install>
+    <sql>
+      <file charset="utf8" driver="mysql">install.sql</file>
+    </sql>
+  </install>
+  <uninstall>
+    <sql>
+      <file charset="utf8" driver="mysql">uninstall.sql</file>
+    </sql>
+  </uninstall>
+
+  <files folder="site">
+    <filename>index.html</filename>
+    <filename>joomsef.php</filename>
+    <filename>sef.php</filename>
+    <filename>sef.cache.php</filename>
+    <filename>sef.ext.php</filename>
+    <filename>sef.router.php</filename>
+    <filename>sef_ext/_com_example.txt</filename>
+    <filename>sef_ext/com_banners.php</filename>
+    <filename>sef_ext/com_banners.xml</filename>
+    <filename>sef_ext/com_contact.php</filename>
+    <filename>sef_ext/com_contact.xml</filename>
+    <filename>sef_ext/com_content.php</filename>
+    <filename>sef_ext/com_content.xml</filename>
+    <filename>sef_ext/com_mailto.php</filename>
+    <filename>sef_ext/com_mailto.xml</filename>
+    <filename>sef_ext/com_newsfeeds.php</filename>
+    <filename>sef_ext/com_newsfeeds.xml</filename>
+    <filename>sef_ext/com_search.php</filename>
+    <filename>sef_ext/com_search.xml</filename>
+    <filename>sef_ext/com_tags.php</filename>
+    <filename>sef_ext/com_tags.xml</filename>
+    <filename>sef_ext/com_users.php</filename>
+    <filename>sef_ext/com_users.xml</filename>
+    <filename>sef_ext/com_weblinks.php</filename>
+    <filename>sef_ext/com_weblinks.xml</filename>
+    <filename>sef_ext/com_wrapper.php</filename>
+    <filename>sef_ext/com_wrapper.xml</filename>
+    <filename>sef_ext/index.html</filename>
+    
+    <folder>assets</folder>
+    <folder>controllers</folder>
+    <folder>helpers</folder>
+  </files>
+
+  <administration>
+    <menu img="components/com_sef/assets/images/icon.png">COM_SEF</menu>
+    <submenu>
+      <menu link="option=com_sef" img="components/com_sef/assets/images/icon-16-sefcpanel.png" view="cpanel">COM_SEF_CPANEL</menu>
+      <menu link="option=com_sef&amp;controller=config&amp;task=edit" img="components/com_sef/assets/images/icon-16-sefconfig.png" view="config">COM_SEF_CONFIG</menu>
+      <menu link="option=com_sef&amp;controller=extension" img="components/com_sef/assets/images/icon-16-sefplugin.png" view="extensions">COM_SEF_EXTENSIONS</menu>
+      <menu link="option=com_sef&amp;controller=htaccess" img="components/com_sef/assets/images/icon-16-edit.png" view="htaccess">COM_SEF_HTACCESS</menu>
+      <menu img="separator">COM_SEF_SEPARATOR1</menu>
+      <menu link="option=com_sef&amp;controller=sefurls&amp;viewmode=3" img="components/com_sef/assets/images/icon-16-url-edit.png" view="sefurls">COM_SEF_SEFURLS</menu>
+      <menu link="option=com_sef&amp;controller=metatags" img="components/com_sef/assets/images/icon-16-manage-tags.png" view="metatags">COM_SEF_METATAGS</menu>
+      <menu link="option=com_sef&amp;controller=sitemap" img="components/com_sef/assets/images/icon-16-manage-sitemap.png" view="sitemap">COM_SEF_SITEMAP</menu>
+      <menu link="option=com_sef&amp;controller=movedurls" img="components/com_sef/assets/images/icon-16-301-redirects.png" view="redirects">COM_SEF_REDIRECTS</menu>
+      <menu link="option=com_sef&amp;controller=statistics" img="components/com_sef/assets/images/icon-16-statistics.png" view="statistics">COM_SEF_STATISTICS</menu>
+      <menu img="separator">COM_SEF_SEPARATOR2</menu>
+      <menu link="option=com_sef&amp;task=showUpgrade" img="components/com_sef/assets/images/icon-16-update.png" view="upgrade">COM_SEF_UPGRADE</menu>
+      <menu link="option=com_sef&amp;controller=info&amp;task=help" img="components/com_sef/assets/images/icon-16-help.png" view="support">COM_SEF_HELP_AND_SUPPORT</menu>
+    </submenu>
+
+    <languages folder="admin">
+      <language tag="en-GB">language/en-GB/en-GB.com_sef.ini</language>
+      <language tag="en-GB">language/en-GB/en-GB.com_sef.sys.ini</language>
+      <language tag="en-GB">language/en-GB/en-GB.plg_content_joomsef.ini</language>
+      <language tag="en-GB">language/en-GB/en-GB.plg_content_joomsef.sys.ini</language>
+      <language tag="en-GB">language/en-GB/en-GB.plg_extension_joomsefinstall.ini</language>
+      <language tag="en-GB">language/en-GB/en-GB.plg_extension_joomsefinstall.sys.ini</language>
+      <language tag="en-GB">language/en-GB/en-GB.plg_system_joomsef.ini</language>
+      <language tag="en-GB">language/en-GB/en-GB.plg_system_joomsef.sys.ini</language>
+      <language tag="en-GB">language/en-GB/en-GB.plg_system_joomseflang.ini</language>
+      <language tag="en-GB">language/en-GB/en-GB.plg_system_joomseflang.sys.ini</language>
+      
+      <language tag="cs-CZ">language/cs-CZ/cs-CZ.com_sef.ini</language>
+      <language tag="cs-CZ">language/cs-CZ/cs-CZ.com_sef.sys.ini</language>
+      <language tag="cs-CZ">language/cs-CZ/cs-CZ.plg_content_joomsef.ini</language>
+      <language tag="cs-CZ">language/cs-CZ/cs-CZ.plg_content_joomsef.sys.ini</language>
+      <language tag="cs-CZ">language/cs-CZ/cs-CZ.plg_extension_joomsefinstall.ini</language>
+      <language tag="cs-CZ">language/cs-CZ/cs-CZ.plg_extension_joomsefinstall.sys.ini</language>
+      <language tag="cs-CZ">language/cs-CZ/cs-CZ.plg_system_joomsef.ini</language>
+      <language tag="cs-CZ">language/cs-CZ/cs-CZ.plg_system_joomsef.sys.ini</language>
+      <language tag="cs-CZ">language/cs-CZ/cs-CZ.plg_system_joomseflang.ini</language>
+      <language tag="cs-CZ">language/cs-CZ/cs-CZ.plg_system_joomseflang.sys.ini</language>
+    </languages>
+
+    <files folder="admin">
+      <filename>config.xml</filename>
+      <filename>controller.php</filename>
+      <filename>extensions_params.xml</filename>
+      <filename>changelog.txt</filename>
+      <filename>index.html</filename>
+      <filename>install.sql</filename>
+      <filename>model.php</filename>
+      <filename>sef.php</filename>
+      <filename>uninstall.sql</filename>
+      <filename>view.php</filename>
+
+      <folder>adapters</folder>
+      <folder>assets</folder>
+      <folder>classes</folder>
+      <folder>controllers</folder>
+      <folder>models</folder>
+      <folder>tables</folder>
+      <folder>views</folder>
+      <folder>plugin</folder>
+      <folder>helpers</folder>
+      <folder>libs</folder>
+      <folder>sql</folder>
+    </files>
+  </administration>
+  <updateservers>
+    <server name="com_joomsef" type="sef_update">http://www.artio.net/joomla-updates/list/com_joomsef4.xml</server>
+  </updateservers>
+</extension>

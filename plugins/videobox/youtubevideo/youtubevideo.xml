@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" group="videobox" method="upgrade">
+    <name>PLG_VIDEOBOX_YOUTUBE</name>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+    <author>HitkoDev</author>
+    <creationDate>April 2014</creationDate>
+    <copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+    <authorEmail>development@hitko.si</authorEmail>
+    <authorUrl>http://hitko.eu/</authorUrl>
+    <version>4.0.0 RC10</version>
+    <description>PLG_VIDEOBOX_YOUTUBEDESC</description>
+	<scriptfile>youtubevideo.script.php</scriptfile>
+	
+    <files>
+		<filename plugin="youtubevideo">index.html</filename>
+		<filename plugin="youtubevideo">youtubevideo.php</filename>
+    </files>
+	<languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_videobox_youtubevideo.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_videobox_youtubevideo.sys.ini</language>
+    </languages>
+	<updateservers>
+		<server type="collection">http://hitko.eu/files/software/videobox/updates.xml</server>
+	</updateservers>
+</extension>

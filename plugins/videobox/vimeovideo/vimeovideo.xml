@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" group="videobox" method="upgrade">
+    <name>PLG_VIDEOBOX_VIMEO</name>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+    <author>HitkoDev</author>
+    <creationDate>April 2014</creationDate>
+    <copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+    <authorEmail>development@hitko.si</authorEmail>
+    <authorUrl>http://hitko.eu/</authorUrl>
+    <version>4.0.0 RC10</version>
+    <description>PLG_VIDEOBOX_VIMEODESC</description>
+	<scriptfile>vimeovideo.script.php</scriptfile>
+	
+    <files>
+		<filename plugin="vimeovideo">index.html</filename>
+		<filename plugin="vimeovideo">vimeovideo.php</filename>
+    </files>
+	<languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_videobox_vimeovideo.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_videobox_vimeovideo.sys.ini</language>
+    </languages>
+	<updateservers>
+		<server type="collection">http://hitko.eu/files/software/videobox/updates.xml</server>
+	</updateservers>
+</extension>

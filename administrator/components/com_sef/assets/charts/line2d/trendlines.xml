@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <params group="Trendlines" description="Trendlines">
+    <param name="startValue" type="text" size="20" default="" label="Start Value" description="The starting y-axis value for the trendline. Say, if you want to plot a slanted trendline from value 102 to 109, the startValue would 102." />
+	<param name="endValue" type="text" size="20" default="" label="End Value" description="The ending y-axis value for the trendline. Say, if you want to plot a slanted trendline from value 102 to 109, the endValue would 109. If you do not specify a value for endValue, it would automatically assume the same value as startValue." />    
+	<param name="color" class="color {pickerPosition:'top',required:false}" type="text" size="7" default="" label="Color" description="Color of the trend line and its associated text." />
+	<param name="displayValue" type="text" size="20" default="" label="Display Value" description="If you want to display a string caption for the trend line by its side, you can use this attribute. Example: displayValue='Last Month High'. When you don't supply this attribute, it automatically takes the value of startValue." />
+	<param name="thickness" type="text" size="20" default="" label="Thickness" description="Thickness of the trend line." />
+    <param name="isTrendZone" type="list" default="" label="Is trend zone" description="Whether the trend would display a line, or a zone (filled colored rectangle).">
+		<option value="">- Default -</option>
+		<option value="0">NO</option>
+		<option value="1">YES</option>
+	</param>
+	<param name="showOnTop" type="list" default="" label="Show on top" description="Whether the trend line/zone would be displayed over other elements of the chart.">
+		<option value="">- Default -</option>
+		<option value="0">NO</option>
+		<option value="1">YES</option>
+	</param>
+    <param name="alpha" type="text" size="20" default="" label="Alpha" description="Alpha (transparency) of the trend line." />
+    </params>
+</form>   

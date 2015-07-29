@@ -1,0 +1,1 @@
+ALTER TABLE `#__sefurls` ADD COLUMN `showsitename` INTEGER(1) NOT NULL DEFAULT '3';

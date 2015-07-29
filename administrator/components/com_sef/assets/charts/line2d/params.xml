@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<name>BACKGROUND PROPERTIES</name>
+	<params group="Background Properties">
+    	<param name="bgColor" class="color {required:false}" type="text" size="7" default="" label="BGCOLOR" description="BGCOLORDESC" />
+    	<param name="bgAlpha" type="text" size="20" default="" label="BGALPHA" description="BGALPHADESC" />
+    	<param name="bgSWF"   type="text" size="20" default="" label="BGSWF" description="BGSWFDESC" />
+	</params>
+	<params group="CANVAS PROPERTIES">
+    	<param name="canvasBgColor" class="color {required:false}" type="text" size="7" default="" label="CANVASBGCOLOR" description="CANVASBGCOLORDESC" />
+    	<param name="canvasBgAlpha" type="text" size="20" default="" label="CANVASBGALPHA" description="CANVASBGALPHADESC" />
+    	<param name="canvasBorderColor" class="color {required:false}" type="text" size="7" default="" label="CANVASBORDERCOLOR" description="CANVASBORDERCOLORDESC" />
+    	<param name="canvasBorderThickness" type="text" size="20" default="" label="CANVASBORDERTHICKNESS" description="CANVASBORDERTHICKNESSDESC" />
+	</params>
+	<params group="CHART AND AXIS TITLES">
+    	<param name="caption" type="text" size="20" default="" label="CAPTION" description="CAPTIONDESC" />
+    	<param name="subCaption" type="text" size="20" default="" label="SUBCAPTION" description="SUBCAPTIONDESC" />
+    	<param name="xAxisName" type="text" size="20" default="" label="XAXISNAME" description="XAXISNAMEDESC" />
+    	<param name="yAxisName" type="text" size="20" default="" label="YAXISNAME" description="YAXISNAMEDESC" />
+	</params>
+	<params group="CHART NUMERICAL LIMITS">
+    	<param name="yAxisMinValue" type="text" size="20" default="" label="YAXISMINVALUE" description="YAXISMINVALUEDESC" />
+    	<param name="yAxisMaxValue" type="text" size="20" default="" label="YAXISMAXVALUE" description="YAXISMAXVALUEDESC" />
+	</params>
+	<params group="GENERIC PROPERTIES">
+		<param name="shownames" type="list" default="" label="SHOWNAMES" description="SHOWNAMESDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="showValues" type="list" default="" label="SHOWVALUES" description="SHOWNAMEDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="showLimits" type="list" default="" label="SHOWLIMITS" description="SHOWLIMITSDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="rotateNames" type="list" default="" label="ROTATENAMES" description="ROTATENAMESDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="animation" type="list" default="" label="ANIMATION" description="ANIMATIONDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+	</params>
+	<params group="LINE PROPERTIES">
+		<param name="lineColor" class="color {required:false}" type="text" size="7" default="" label="LINECOLOR" description="LINECOLORDESC" />
+		<param name="lineThickness" type="text" size="20" default="" label="LINETHICKNESS" description="LINETHICKNESSDESC" />
+		<param name="lineAlpha" type="text" size="20" default="" label="LINEALPHA" description="LINEALPHADESC" />
+	</params>
+	<params group="LINE SHADOW PROPERTIES"> 
+   		<param name="showshadow" type="list" default="" label="SHOWSHADOW" description="SHOWSHADOWDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+   		<param name="shadowColor" class="color {required:false}" type="text" size="7" default="" label="SHADOWCOLOR" description="SHADOWCOLORDESC" />
+   		<param name="shadowThickness" type="text" size="20" default="" label="SHADOWTHICKNESS" description="SHADOWTHICKNESSDESC" />
+   		<param name="shadowAlpha" type="text" size="20" default="" label="SHADOWALPHA" description="SHADOWALPHADESC" />
+  		<param name="shadowXShift" type="text" size="20" default="" label="SHADOWXSHIFT" description="SHADOWXSHIFTDESC" />
+	 	<param name="shadowYShift" type="text" size="20" default="" label="SHADOWYSHIFT" description="SHADOWYSHIFTDESC" />
+	</params>
+	<params group="ANCHOR PROPERTIES" description="ANCHOR PROPERTIES DESC">
+    	<param name="showAnchors" type="list" default="" label="SHOWANCHORS" description="SHOWANCHORSDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+     	<param name="anchorSides" type="text" size="20" default="" label="ANCHORSIDES" description="ANCHORSIDESDESC" />
+     	<param name="anchorRadius" type="text" size="20" default="" label="ANCHORRADIUS" description="ANCHORRADIUSDESC" />
+     	<param name="anchorBorderColor" class="color {required:false}" type="text" size="7" default="" label="ANCHORBORDERCOLOR" description="ANCHORBORDERCOLORCOLORDESC" />
+     	<param name="anchorBorderThickness" type="text" size="20" default="" label="ANCHORBORDERTHICKNESS" description="ANCHORBORDERTHICKNESSDESC" />
+     	<param name="anchorBgColor" class="color {required:false}" type="text" size="7" default="" label="ANCHORBGCOLOR" description="ANCHORBGCOLORCOLORDESC" />
+     	<param name="anchorBgAlpha" type="text" size="20" default="" label="ANCHORBGALPHA" description="ANCHORBGALPHADESC" />
+     	<param name="anchorAlpha" type="text" size="20" default="" label="ANCHORALPHA" description="ANCHORALPHADESC" />
+    </params>
+     <params group="FONT PROPERTIES">
+		<param name="baseFont" type="text" size="20" default="" label="BASEFONT" description="BASEFONTDESC" />
+		<param name="baseFontSize" type="text" size="20" default="" label="BASEFONTSIZE" description="BASEFONTSIZEDESC" />
+		<param name="baseFontColor" class="color {required:false}" type="text" size="7" default="" label="BASEFONTCOLOR" description="BASEFONTCOLORDESC" />
+		<param name="outCnvBaseFont" type="text" size="20" default="" label="OUTCNVBASEFONT" description="OUTCNVBASEFONTDESC" />
+		<param name="outCnvBaseFontSize" type="text" size="20" default="" label="OUTCNVBASEFONTSIZE" description="OUTCNVBASEFONTSIZEDESC" />
+		<param name="outCnvBaseFontColor" class="color {required:false}" type="text" size="7" default="" label="OUTCNVBASEFONTCOLOR" description="OUTCNVBASEFONTCOLORDESC" />
+	</params>
+	<params group="NUMBER FORMATTING OPTIONS">
+		<param name="numberPrefix" type="text" size="20" default="" label="NUMBERPREFIX" description="NUMBERPREFIXDESC" />
+		<param name="numberSuffix" type="text" size="20" default="" label="NUMBERSUFFIX" description="NUMBERSUFFIXDESC" />
+		<param name="formatNumber" type="list" default="" label="FORMATNUMBER" description="FORMATNUMBERDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="formatNumberScale" type="list" default="" label="FORMATNUMBERSCALE" description="FORMATNUMBERSCALEDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="decimalSeparator" type="text" size="20" default="" label="DECIMALSEPARATOR" description="DECIMALSEPARATORDESC" />
+		<param name="thousandSeparator" type="text" size="20" default="" label="THOUSANDSEPARATOR" description="THOUSANDSEPARATORDESC" />
+		<param name="decimalPrecision" type="text" size="20" default="" label="DECIMALPRECISION" description="DECIMALPRECISIONDESC" />
+		<param name="divLineDecimalPrecision" type="text" size="20" default="" label="DIVLINEDECIMALPRECISION" description="DIVLINEDECIMALPRECISIONDESC" />
+		<param name="limitsDecimalPrecision" type="text" size="20" default="" label="LIMITSDECIMALPRECISION" description="LIMITSDECIMALPRECISIONDESC" />
+	</params>
+	<params group="ZERO PLANE" description="ZERO PLANE DESC">
+		<param name="zeroPlaneThickness" type="text" size="20" default="" label="ZEROPLANETHICKNESS" description="ZEROPLANETHICKNESSDESC" />
+		<param name="zeroPlaneColor" class="color {required:false}" type="text" size="7" default="" label="ZEROPLANECOLOR" description="ZEROPLANECOLORDESC" />
+		<param name="zeroPlaneAlpha" type="text" size="20" default="" label="ZEROPLANEALPHA" description="ZEROPLANEALPHADESC" />
+	</params>
+	<params group="DIVISIONAL LINES HORIZONTAL" description="DIVISIONAL LINES HORIZONTAL DESC">
+		<param name="numdivlines" type="text" size="20" default="" label="NUMDIVLINES" description="NUMDIVLINESDESC" />
+		<param name="divlinecolor" class="color {required:false}" type="text" size="7" default="" label="DIVLINECOLOR" description="DIVLINECOLORDESC" />
+		<param name="divLineThickness" type="text" size="20" default="" label="DIVLINETHICKNESS" description="DIVLINETHICKNESSDESC" />
+		<param name="divLineAlpha" type="text" size="20" default="" label="DIVLINEALPHA" description="DIVLINEALPHADESC" />
+		<param name="showDivLineValue" type="list" default="" label="SHOWDIVLINEVALUE" description="SHOWDIVLINEVALUEDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="showAlternateHGridColor" type="list" default="" label="SHOWALTERNATEHGRIDCOLOR" description="SHOWALTERNATEHGRIDCOLORDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="alternateHGridColor" class="color {required:false}" type="text" size="7" default="" label="ALTERNATEHGRIDCOLOR" description="ALTERNATEHGRIDCOLORDESC" />
+		<param name="alternateHGridAlpha" type="text" size="20" default="" label="ALTERNATEHGRIDALPHA" description="ALTERNATEHGRIDALPHADESC" />
+	</params>
+	<params group="DIVISIONAL LINES VERTICAL">
+		<param name="numVDivLines" type="text" size="20" default="" label="NUMVDIVLINES" description="NUMVDIVLINESDESC" />
+		<param name="VDivlinecolor" class="color {required:false}" type="text" size="7" default="" label="VDIVLINECOLOR" description="VDIVLINECOLORDESC" />
+		<param name="VDivLineThickness" type="text" size="20" default="" label="VDIVLINETHICKNESS" description="VDIVLINETHICKNESSDESC" />
+		<param name="VDivLineAlpha" type="text" size="20" default="" label="VDIVLINEALPHA" description="VDIVLINEALPHADESC" />
+		<param name="showAlternateVGridColor" type="list" default="" label="SHOWALTERNATEVGRIDCOLOR" description="SHOWALTERNATEVGRIDCOLORDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="alternateVGridColor" class="color {required:false}" type="text" size="7" default="" label="ALTERNATEVGRIDCOLOR" description="ALTERNATEVGRIDCOLORDESC" />
+		<param name="alternateVGridAlpha" type="text" size="20" default="" label="ALTERNATEVGRIDALPHA" description="ALTERNATEVGRIDALPHADESC" />
+	</params>
+	<params group="TOOLTIP PROPERTIES" description="TOOLTIP PROPERTIES DESC">
+		<param name="showhovercap" type="list" default="" label="SHOWHOVERCAP" description="SHOWHOVERCAPDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="hoverCapBgColor" class="color {required:false}" type="text" size="7" default="" label="HOVERCAPBGCOLOR" description="HOVERCAPBGCOLORDESC" />
+		<param name="hoverCapBorderColor" class="color {required:false}" type="text" size="7" default="" label="HOVERCAPBORDERCOLOR" description="HOVERCAPBORDERCOLORDESC" />
+		<param name="hoverCapSepChar" type="text" size="20" default="" label="HOVERCAPSEPCHAR" description="HOVERCAPSEPCHARDESC" />
+	</params>
+	<params group="CHART MARGINS" description="CHART MARGINS DESC">
+		<param name="chartLeftMargin" type="text" size="20" default="" label="CHARTLEFTMARGIN" description="CHARTLEFTMARGINDESC" />
+		<param name="chartRightMargin" type="text" size="20" default="" label="CHARTRIGHTMARGIN" description="CHARTRIGHTMARGINDESC" />
+		<param name="chartTopMargin" type="text" size="20" default="" label="CHARTTOPMARGIN" description="CHARTTOPMARGINDESC" />
+		<param name="chartBottomMargin" type="text" size="20" default="" label="CHARTBOTTOMMARGIN" description="CHARTBOTTOMMARGINDESC" />
+	</params>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

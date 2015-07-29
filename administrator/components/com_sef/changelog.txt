@@ -1,0 +1,322 @@
+JoomSEF 4 Changelog
+(C) 2015 ARTIO International Co.
+--------------------------------
+
+--- 4.6.2 --- [10.3.2015]
+Fix - Error with new Joomla 3 component router interface support
+
+--- 4.6.1 --- [5.3.2015]
+Fix - ACL permissions check in backend
+Fix - Extensions installation on Joomla 3.4 ("sef_ext adapter doesn't exist" error)
+
+--- 4.6.0 --- [3.3.2015]
+New - Options to remove and fix canonical links in Joomla 3
+Improved - Statistics parsing from Google
+Fix - Pagination problem in Joomla 3.4
+Fix - SQL error when no accepted currencies selected in VirtueMart
+Fix - Support for new Joomla 3 component router interface
+Fix - Component router loading isolated from local variables
+Fix - Error when Auto Update URLs option was enabled
+Fix - Updating validity getting stuck
+
+--- 4.5.6 --- [27.11.2014]
+Improved - Added new options for GA tracking
+
+--- 4.5.5 --- [26.11.2014]
+Improved - Updated GA tracking code
+
+--- 4.5.4 --- [7.11.2014]
+Improved - Caching duplicate SEF URLs (solves problems with cache when using domains for different languages)
+Fix - 301 redirects in Joomla 3.2 and newer
+Fix - Caching "Use sitename in title" option
+Fix - Generating crontab file
+
+--- 4.5.3 --- [18.9.2014]
+New - Added option to update Sitemap XML file during cron task
+Fix - URLs to non-existent articles are no longer stored in DB
+Fix - Calendar field was not displayed correctly in Joomla 3
+Fix - Variables filtering rules were not loaded correctly for components without JoomSEF extension
+
+--- 4.5.2 --- [30.5.2014]
+Improved - Caching menu items
+Improved - Compatibility with Joomla! 3.3
+Improved - DB table optimization
+Fix - Website crawler recover function
+Fix - Fatal error on Joomla! 3.3 when saving configuration
+Fix - 404 article creation and language
+Fix - Deprecated warning
+Fix - DB error when frontend language not set as Content language
+
+--- 4.5.1 --- [8.11.2013]
+Fix - Compatibility with Joomla 3.2.0
+
+--- 4.5.0 --- [23.10.2013]
+New - AJAX user interface for comfortable URLs editation
+New - Tags extension for Joomla 3
+Improved - Avoid endless loop with Kunena 3
+Fix - Pagination in articles category view
+
+--- 4.4.4 --- [29.8.2013]
+Improved - Extensions installer and updater don't require installation anymore
+Fix - Query variables of 404 page are not used as non-SEF anymore
+Fix - PHP warning in Contacts extension
+Fix - PHP warning in Configuration when there's no content language published
+
+--- 4.4.3 --- [26.7.2013]
+Fix - Renamed view classes according to new Joomla 3.1.4 requirements
+
+--- 4.4.2 --- [25.7.2013]
+New - Custom meta tags for individual SEF URLs
+New - Filters in Statistics view
+New - Option to count homepage hits
+Improved - No language code in URL for main language
+Improved - Usage of language code stored in cookie (eg. for VM cart)
+Fix - Custom SEF URLs have variables automatically sorted when saved
+Fix - "Fix document format" option
+Fix - Homepage link display in URLs Manager
+Fix - String standard warning in extension view
+Fix - Standardized line endings in all files
+Fix - Added info to Cache configuration page
+Fix - Removed meta title generation
+Fix - Limitstart replaced by start for component's router handling
+Fix - "Guess Itemid" option in Content extension
+Fix - "Check all" checkbox in Joomla 3
+
+--- 4.4.1 --- [15.3.2013]
+New - Option to create multiple sitemaps for different language domains
+New - Options to always use English texts in standard extensions
+New - Option to enable Menu Associations for multilanguage websites
+Improved - Database tables are created with utf-8 encoding
+Improved - Optimized database query for duplicate SEF URLs
+Fix - Problems with AJAX requests being cached
+Fix - Aliases redirect for index.php links
+Fix - Alias field usage in page titles
+Fix - Print article links handling
+Fix - New article links handling
+Fix - option variable added to pure index.php
+
+--- 4.4.0 --- [11.2.2013]
+New - Option to choose HTTPS usage in Sitemap
+Improved - Multilanguage domains in Sitemap URLs
+Improved - Memory requirements when generating Sitemap XML file
+Fix - Links in Help and Support
+Fix - Non-existent language handling
+Fix - Possible XSS vulnerability
+
+--- 4.3.2 --- [5.2.2013]
+Fix - Joomla! update system
+Fix - Language detection with File Suffix set to "/"
+
+--- 4.3.1 --- [4.2.2013]
+New - Check if Joomla version is supported before installation
+Improved - Joomla 3.0 support
+Improved - Hide FaLang from Manage Extensions page
+Fix - Empty sitename for selected language
+Fix - "&amp;" in non-SEF URLs (problem with VirtueMart)
+Fix - "www" being displayed in Subdomains configuration
+Fix - Duplicate subdomains in configuration
+Fix - Warning when saving configuration
+Fix - Numeric IDs in common components' URLs
+Fix - Non-existent language handling
+Fix - Endless loop in menu item alias handling
+Fix - Error when component's router doesn't return array
+
+--- 4.3.0 --- [2.1.2013]
+New - Compatible with Joomla 3.0, no longer compatible with Joomla < 2.5.6
+New - Options to handle mismatched lang and Itemid
+New - Option to use 303 code for root URL redirection to correct language
+New - Option to change pure index.php to current menu link
+New - Option to use Joomla's error page for 404 errors
+Improved - Redirect wrong cased URL to correct one
+Improved - Support for nested arrays in Alias query
+Improved - PHP 5.4 compatibility
+Improved - UTF-8 support for Internal Links
+Improved - Language detection for non-SEF URLs
+Improved - Missing Czech translation strings
+Improved - Meta keywords generation for words with hyphen
+Fix - Correct sitename for selected language is used
+Fix - Fixed article category URLs
+Fix - Backlink displayed only in HTML documents
+Fix - Czech translation of reset button
+Fix - Create links to homepage function
+Fix - Nested menu aliases
+Fix - Menu title in URLs when Itemid is excluded
+Fix - Itemid always parsed as numeric
+Fix - Configuration being reset when Permissions are changed
+Fix - Possible XSS vulnerability
+Fix - Wrong language used in modules
+Fix - Displayed URLs and sorting on Statistics page
+Fix - Some problems with URLs Auto update
+Removed - Pinging Yahoo when sitemap is generated
+
+--- 4.2.9 --- [18.9.2012]
+New - Option not to add language code to homepage URLs
+New - Automatic VirtueMart currency selection according to language
+Improved - Website Crawler
+Improved - Content extension uses alias in URLs as default
+Fix - Statistics and Analytics not working
+Fix - Language domains not being displayed
+Fix - Long language codes can be used in URLs
+Fix - Saving subdomains in JoomSEF's Configuration
+Fix - Handling of www with subdomains and IP
+Fix - sid variable being removed sometimes
+Fix - Missing slash in base tag
+
+--- 4.2.8 --- [29.6.2012]
+Improved - Website Crawler can recover from errors
+Improved - Excluded categories in Content extension are case insensitive now
+Improved - Recognition of home page URLs
+Fix - Handling of missing option variable (fixes payment and shipping selection in VM)
+Fix - Errors when ARTIO update server is not available
+Fix - Website Crawler - workaround for bug in some versions of PHP
+
+--- 4.2.7 --- [4.6.2012]
+Improved - Translate items option for FaLang
+Improved - Greek characters in non-ASCII characters replacements
+Improved - Added language filter to URLs list
+Improved - FaLang support
+Improved - Language Filter plugin can be disabled directly from Configuration
+Improved - UTF-8 support for meta tags generation
+Fix - Manual editation of duplicate SEF URLs
+Fix - Add menu title option with FaLang
+Fix - Ampersand character in non-SEF to SEF redirection
+
+--- 4.2.6 --- [27.4.2012]
+New - FaLang support
+New - Option to disable handling of query variables as non-SEF
+New - Option to add page number to page title in Content extension
+Improved - Support for slashes in Google News numbering for Content articles
+Improved - Compatibility with JoomImages module
+Fix - Some problems with language on homepage
+Fix - Support for magic_quotes_gpc in Configuration
+Fix - Unwanted domain redirects on language mismatch
+Fix - Prevented double loading of JoomSefLogger class
+Fix - Custom menu title not working
+Fix - Headers already sent error is no longer displayed
+Fix - Problem with certificate for Google Analytics
+
+--- 4.2.5 --- [15.3.2012]
+New - Support for page titles in multipage articles
+New - Handle mismatch between URL and domain language
+New - Sitename in page title option for individual URLs
+Improved - Web Crawler
+Improved - System variables filter
+Improved - Joomla update system for extensions
+Improved - Weblinks extension
+Fix - Problems with configuration saving
+Fix - Caching of SEF Status changes
+Fix - Fatal error in Auto Update URLs function
+Fix - Wrong menu title when Exclude Itemid was enabled
+Fix - Handling of www and non-www domains
+Fix - Duplicate suffix with Default Joomla router
+
+--- 4.2.4 --- [21.2.2012]
+New - Configuration is now stored in database
+Improved - Multilanguage compatibility with Joomla 1.6
+Improved - Custom JRoute class loaded only if needed
+Improved - Menu item aliases handling
+Fix - Menu title for Search
+Fix - Recognition of links to home page
+Fix - Changed 303 redirects to 301
+Fix - Editing articles in frontend
+Fix - Automatic canonical link generation option
+Fix - Default frontend language
+Fix - Opensearch links are not SEFed anymore
+Fix - Disabling SEF for individual URLs
+Fix - Meta tags on multilanguage home pages
+
+--- 4.2.3 --- [12.1.2012]
+Improved - Performance (unnecessary SQL queries removed)
+Fix - Problem with Itemid when Default Joomla! router used
+Fix - Non-SEF URLs handled by Default Joomla! router
+Fix - Warning in JoomSEF's router
+Fix - Division by zero error
+Fix - Language detection
+Fix - Duplicate sitename in page titles
+Fix - Meta tags on home page
+Fix - Users activation and links
+Fix - Default parameters for Wrapper extension
+
+--- 4.2.2 --- [6.12.2011]
+Fix - RSS feeds
+Fix - Infinite redirect on multilanguage site homepage
+
+--- 4.2.1 --- [1.12.2011]
+Improved - Subdomains with multiple languages
+Fix - Duplicate domains in URLs
+Fix - SSL URLs
+Fix - Problems with connecting to Google Analytics
+
+--- 4.2.0 --- [21.11.2011]
+New - Configuration separated to Beginner and Professional modes
+New - Crawl Web function
+New - Statistics and Analytics functions (only paid)
+New - Info texts for some less intuitive features
+New - Option to log errors in non-SEF URLs
+New - Supported extensions may now index URLs in Sitemap automatically
+New - Usage of different subdomains for specific menu items
+New - Updates may now be run periodically using cron (only paid)
+Improved - Administration layout
+Improved - URLs import from JoomSEF 3.x
+Fix - Problems with Search extension
+Fix - Fatal error caused by JoomShopping extension
+Fix - Problem with duplicate .html suffix
+Fix - Extensions discovery function in Joomla!
+Fix - Error in "Show Links to Homepage" option
+Fix - Custom menu title not working
+
+--- 4.1.1 --- [6.10.2011]
+New - Added possibility to autolock created URLs
+New - Added possibility to update SEF URLs when changing content items
+New - Added possibility to manage Joomla language URL settings from JoomSEF
+New - Added possibility to manage JoomSEF cache
+Improved - Possibility to update only filtered metas and URLs
+Improved - sh404sef URLs import
+Improved - Frontpage pagination
+Fix - Fixed problems with Joomla on subfolders
+Fix - Internal links don't link to current page anymore
+Fix - Fixed AJAX search in yootheme template
+
+--- 4.1.0 --- [6.10.2011]
+New - Installing and upgrading through Joomla built-in updater
+Improved - Joomla 1.7 compatibility
+
+--- 4.0.9 --- [20.7.2011]
+Fix - default configuration parameters
+Fix - bugs with Joomla installed in domain subfolders and extensions without own SEF routers
+
+--- 4.0.8 --- [19.7.2011]
+Fix - nonSEF urls generation with JoomSEF
+Improved - translate URL extension texts in JoomSEF
+
+--- 4.0.7 --- [14.7.2011]
+Fix - compatibility bug when using with JCE 2.0
+
+--- 4.0.6 --- [9.7.2011]
+Fix - compatibility with Joomla language plugin
+Fix - multilanguage content titles
+Fix - content pagination
+Fix - Joomla bug when checking for default menu entry
+Fix - Joomla in front-end does not load language by default, so load this manually
+
+--- 4.0.5 --- [4.7.2011]
+Fix - extension installer problems
+
+--- 4.0.4 --- [20.5.2011]
+Fix - changes requested by JED
+
+--- 4.0.3 --- [11.5.2011]
+Fix - wrong 404 page handling
+
+--- 4.0.2 --- [18.3.2011]
+Fix - Upgrading free to paid error
+
+--- 4.0.1 --- [16.3.2011]
+New - Added options related to metadata generation and overriding
+New - Added Update Meta tags function
+Improved - URLs Update using AJAX
+Improved - Support for native Joomla! 1.6 language filtering
+
+--- 4.0.0 --- [2.2.2011]
+New - First stable release for Joomla! 1.6
+

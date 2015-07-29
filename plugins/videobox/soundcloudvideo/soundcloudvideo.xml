@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" group="videobox" method="upgrade">
+    <name>PLG_VIDEOBOX_SC</name>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+    <author>HitkoDev</author>
+    <creationDate>April 2014</creationDate>
+    <copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+    <authorEmail>development@hitko.si</authorEmail>
+    <authorUrl>http://hitko.eu/</authorUrl>
+    <version>4.0.0 RC10</version>
+    <description>PLG_VIDEOBOX_SCDESC</description>
+	<scriptfile>soundcloudvideo.script.php</scriptfile>
+	
+    <files>
+		<filename plugin="soundcloudvideo">index.html</filename>
+		<filename plugin="soundcloudvideo">soundcloudvideo.php</filename>
+    </files>
+	<languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_videobox_soundcloudvideo.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_videobox_soundcloudvideo.sys.ini</language>
+    </languages>
+	<config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="visual" type="radio" default="1" size="5" label="PLG_VIDEOBOX_SC_VISUAL" description="PLG_VIDEOBOX_SC_VISUALDESC" class="btn-group" >
+					<option value="1">PLG_VIDEOBOX_SC_ON</option>
+					<option value="0">PLG_VIDEOBOX_SC_OFF</option>
+				</field>
+                <field name="visual_d" type="radio" default="" size="5" label="PLG_VIDEOBOX_SC_VISUAL_D" description="PLG_VIDEOBOX_SC_VISUAL_NGDESC" class="btn-group" >
+					<option value="">PLG_VIDEOBOX_SC_DEFAULT</option>
+					<option value="1">PLG_VIDEOBOX_SC_ON</option>
+					<option value="0">PLG_VIDEOBOX_SC_OFF</option>
+				</field>
+                <field name="visual_b" type="radio" default="" size="5" label="PLG_VIDEOBOX_SC_VISUAL_B" description="PLG_VIDEOBOX_SC_VISUAL_NGDESC" class="btn-group" >
+					<option value="">PLG_VIDEOBOX_SC_DEFAULT</option>
+					<option value="1">PLG_VIDEOBOX_SC_ON</option>
+					<option value="0">PLG_VIDEOBOX_SC_OFF</option>
+				</field>
+                <field name="visual_alt_b" type="radio" default="" size="5" label="PLG_VIDEOBOX_SC_VISUAL_ALT_B" description="PLG_VIDEOBOX_SC_VISUAL_NG_ALTDESC" class="btn-group" >
+					<option value="">PLG_VIDEOBOX_SC_DEFAULT</option>
+					<option value="1">PLG_VIDEOBOX_SC_ON</option>
+					<option value="0">PLG_VIDEOBOX_SC_OFF</option>
+				</field>
+                <field name="visual_g" type="radio" default="" size="5" label="PLG_VIDEOBOX_SC_VISUAL_G" description="PLG_VIDEOBOX_SC_VISUAL_NGDESC" class="btn-group" >
+					<option value="">PLG_VIDEOBOX_SC_DEFAULT</option>
+					<option value="1">PLG_VIDEOBOX_SC_ON</option>
+					<option value="0">PLG_VIDEOBOX_SC_OFF</option>
+				</field>
+                <field name="visual_alt_g" type="radio" default="" size="5" label="PLG_VIDEOBOX_SC_VISUAL_ALT_G" description="PLG_VIDEOBOX_SC_VISUAL_NG_ALTDESC" class="btn-group" >
+					<option value="">PLG_VIDEOBOX_SC_DEFAULT</option>
+					<option value="1">PLG_VIDEOBOX_SC_ON</option>
+					<option value="0">PLG_VIDEOBOX_SC_OFF</option>
+				</field>
+                <field name="visual_l" type="radio" default="" size="5" label="PLG_VIDEOBOX_SC_VISUAL_L" description="PLG_VIDEOBOX_SC_VISUAL_NGDESC" class="btn-group" >
+					<option value="">PLG_VIDEOBOX_SC_DEFAULT</option>
+					<option value="1">PLG_VIDEOBOX_SC_ON</option>
+					<option value="0">PLG_VIDEOBOX_SC_OFF</option>
+				</field>
+                <field name="visual_lg" type="radio" default="" size="5" label="PLG_VIDEOBOX_SC_VISUAL_LG" description="PLG_VIDEOBOX_SC_VISUAL_NGDESC" class="btn-group" >
+					<option value="">PLG_VIDEOBOX_SC_DEFAULT</option>
+					<option value="1">PLG_VIDEOBOX_SC_ON</option>
+					<option value="0">PLG_VIDEOBOX_SC_OFF</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="collection">http://hitko.eu/files/software/videobox/updates.xml</server>
+	</updateservers>
+</extension>

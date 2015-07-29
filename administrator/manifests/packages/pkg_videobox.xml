@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="1.6">
+	<name>Videobox package</name>
+    <author>HitkoDev</author>
+    <creationDate>April 2014</creationDate>
+    <version>4.0.0 RC15</version>
+    <description>Package containing standard Videobox plugins and libraries</description>
+	<packagename>videobox</packagename>
+	
+	<files>
+		<file type="library" id="videobox">lib_videobox.zip</file>
+		<file type="plugin" id="videobox" group="system">plg_system_videobox.zip</file>
+		<file type="plugin" id="html5video" group="videobox">plg_videobox_HTML5.zip</file>
+		<file type="plugin" id="soundcloudvideo" group="videobox">plg_videobox_soundcloud.zip</file>
+		<file type="plugin" id="vimeovideo" group="videobox">plg_videobox_vimeo.zip</file>
+		<file type="plugin" id="youtubevideo" group="videobox">plg_videobox_youtube.zip</file>
+	</files>
+</extension>

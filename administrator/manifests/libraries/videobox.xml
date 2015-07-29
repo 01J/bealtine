@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" version="2.5" method="upgrade">
+    <name>Videobox library</name>
+	<libraryname>videobox</libraryname>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+    <author>HitkoDev</author>
+    <creationDate>April 2014</creationDate>
+    <copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+    <authorEmail>development@hitko.si</authorEmail>
+    <authorUrl>http://hitko.eu/</authorUrl>
+    <version>4.0.0 RC15</version>
+    <description>Library containint core Videobox features</description>
+	
+	<files>
+		<filename>index.html</filename>
+		<filename>video.php</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+	</files>
+	<updateservers>
+		<server type="collection">http://hitko.eu/files/software/videobox/updates.xml</server>
+	</updateservers>
+</extension>

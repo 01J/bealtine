@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6.0" type="plugin" group="system">
+  <name>System - ARTIO JoomSEFURL</name>
+  <author>ARTIO s.r.o.</author>
+  <creationDate>29. August 2010</creationDate>
+  <copyright>ARTIO s.r.o.</copyright>
+  <license>GNU/GPLv3 http://www.artio.net/license/gnu-general-public-license</license>
+  <authorEmail>info@artio.net</authorEmail>
+  <authorUrl>www.artio.net</authorUrl>
+  <version>4.0.0</version>
+  <description>Plugin which shows NonSEF URL tooltip. Can be used for simplify JoomSEF plugin development and detecting errors in badly created URLs.</description>
+  <files>
+    <filename plugin="joomsefurl">joomsefurl.php</filename>
+  </files>
+  <config>
+  	<fields name="params">
+  		<fieldset name="basic">
+  			<field name="raw" type="radio" default="0" label="Show raw URL">
+  				<option value="1">JYes</option>
+  				<option value="0">JNo</option>
+  			</field>
+  		</fieldset>
+  	</fields>
+  </config>
+</extension>

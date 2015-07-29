@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<name>ATTRIBUTES</name>
+	<params group="BACKGROUND PROPERTIES">
+    	<param name="bgColor" class="color {required:false}" type="text" size="7" default="" label="BGCOLOR" description="BGCOLORDESC" />
+    	<param name="bgAlpha" type="text" size="20" default="" label="BGALPHA" description="BGALPHADESC" />
+    	<param name="bgSWF"   type="text" size="20" default="" label="BGSWF" description="BGSWFDESC" />
+	</params>
+	<params group="CHART AND AXIS TITLES">
+    	<param name="caption" type="text" size="20" default="" label="CAPTION" description="CAPTIONDESC" />
+    	<param name="subCaption" type="text" size="20" default="" label="SUBCAPTION" description="SUBCAPTIONDESC" />
+   			</params>
+       <params group="GENERIC PROPERTIES">
+		<param name="shownames" type="list" default="" label="SHOWNAMES" description="SHOWNAMESDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="showValues" type="list" default="" label="SHOWVALUES" description="SHOWNAMEDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+  
+   		<param name="showPercentageValues" type="list" default="" label="SHOWPERCENTAGEVALUES" description="SHOWPERCENTAGEVALUESDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+	
+   		<param name="showPercentageInLabel" type="list" default="" label="SHOWPERCENTAGEINLABEL" description="SHOWPERCENTAGEINLABELDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+	
+   		<param name="animation" type="list" default="" label="ANIMATION" description="ANIMATIONDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+   	</params>
+	<params group="PIE PROPERTIES">
+	 	<param name="pieRAdius" type="text" size="20" default="" label="PIERADIUS" description="PIERADIUSDESC" />
+	 	<param name="pieBorderThickness" type="text" size="20" default="" label="PIEBORDERTHICKNESS" description="PIEBORDERTHICKNESSDESC" />
+	 	<param name="pieBorderAlpha" type="text" size="20" default="" label="PIEBORDERALPHA" description="PIEBORDERALPHADESC" />
+   		<param name="pieFillAlpha" type="text" size="20" default="" label="PIEFILLALPHA" description="PIEFILLALPHADESC" />
+    </params>
+    <params group="NAME/VALUE DISPLAY DISTANCE CONTROL">
+   		<param name="slicingDistance" type="text" size="20" default="" label="SLICINGDISTANCE" description="SLICINGDISTANCEDESC" />
+	 	<param name="nameTBDistance" type="text" size="20" default="" label="NAMETBDISTANCE" description="NAMETBDISTANCEDESC" />
+	</params>
+    <params group="PIE SHADOW PROPERTIES"> 
+   		<param name="showshadow" type="list" default="" label="SHOWSHADOW" description="SHOWSHADOWDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+   		<param name="shadowColor" class="color {required:false}" type="text" size="7" default="" label="SHADOWCOLOR" description="SHADOWCOLORDESC" />
+  		<param name="shadowXShift" type="text" size="20" default="" label="SHADOWXSHIFT" description="SHADOWXSHIFTDESC" />
+	 	<param name="shadowYShift" type="text" size="20" default="" label="SHADOWYSHIFT" description="SHADOWYSHIFTDESC" />
+	</params>
+    <params group="FONT PROPERTIES">
+		<param name="baseFont" type="text" size="20" default="" label="BASEFONT" description="BASEFONTDESC" />
+		<param name="baseFontSize" type="text" size="20" default="" label="BASEFONTSIZE" description="BASEFONTSIZEDESC" />
+		<param name="baseFontColor" class="color {required:false}" type="text" size="7" default="" label="BASEFONTCOLOR" description="BASEFONTCOLORDESC" />
+	</params>
+  	<params group="NUMBER FORMATTING OPTIONS">
+		<param name="numberPrefix" type="text" size="20" default="" label="NUMBERPREFIX" description="NUMBERPREFIXDESC" />
+		<param name="numberSuffix" type="text" size="20" default="" label="NUMBERSUFFIX" description="NUMBERSUFFIXDESC" />
+		<param name="formatNumberScale" type="list" default="" label="FORMATNUMBERSCALE" description="FORMATNUMBERSCALEDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="formatNumberScale" type="list" default="" label="FORMATNUMBERSCALE" description="FORMATNUMBERSCALEDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="decimalSeparator" type="text" size="20" default="" label="DECIMALSEPARATOR" description="DECIMALSEPARATORDESC" />
+		<param name="thousandSeparator" type="text" size="20" default="" label="THOUSANDSEPARATOR" description="THOUSANDSEPARATORDESC" />
+		<param name="decimalPrecision" type="text" size="20" default="" label="DECIMALPRECISION" description="DECIMALPRECISIONDESC" />
+	</params>
+	<params group="TOOLTIP PROPERTIES" description="TOOLTIP PROPERTIES DESC">
+		<param name="showhovercap" type="list" default="" label="SHOWHOVERCAP" description="SHOWHOVERCAPDESC">
+    <option value="">- Default -</option>
+    <option value="0">NO</option>
+    <option value="1">YES</option>
+</param>
+
+		<param name="hoverCapBgColor" class="color {required:false}" type="text" size="7" default="" label="HOVERCAPBGCOLOR" description="HOVERCAPBGCOLORDESC" />
+		<param name="hoverCapBorderColor" class="color {required:false}" type="text" size="7" default="" label="HOVERCAPBORDERCOLOR" description="HOVERCAPBORDERCOLORDESC" />
+		<param name="hoverCapSepChar" type="text" size="20" default="" label="HOVERCAPSEPCHAR" description="HOVERCAPSEPCHARDESC" />
+	</params>
+</form>

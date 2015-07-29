@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" group="videobox" method="upgrade">
+    <name>PLG_VIDEOBOX_HTML5VIDEO</name>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+    <author>HitkoDev</author>
+    <creationDate>April 2014</creationDate>
+    <copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+    <authorEmail>development@hitko.si</authorEmail>
+    <authorUrl>http://hitko.eu/</authorUrl>
+    <version>4.0.0 RC15</version>
+    <description>PLG_VIDEOBOX_HTML5VIDEODESC</description>
+	<scriptfile>html5video.script.php</scriptfile>
+	
+    <files>
+		<filename plugin="html5video">index.html</filename>
+		<filename plugin="html5video">player.php</filename>
+		<filename plugin="html5video">html5video.php</filename>
+    </files>
+	<languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_videobox_html5video.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_videobox_html5video.sys.ini</language>
+    </languages>
+	<updateservers>
+		<server type="collection">http://hitko.eu/files/software/videobox/updates.xml</server>
+	</updateservers>
+</extension>

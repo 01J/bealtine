@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <params group="Bar2d" description="Bar2d">
+		<param name="name" type="text" size="20" default="" label="Name" description="This attribute determines the name by which the set of data would be represented in the chart. In the above example, the value of this attribute is &amp;quote;Jan&amp;quote; and therefore, this set of data would be represented on the chart with the name &amp;quote;Jan&amp;quote;." />
+		<param name="value" type="text" size="20" default="" label="Value" description="This attribute determines the numerical value for the set of data according to which the chart would be built for the concerned set of data." />
+      	<param name="color" class="color {pickerPosition:'top',required:false}" type="text" size="7" default="" label="Color" description="This attribute determines the color for the concerned set of data in which it would appear in the graph." />
+		<param name="hoverText" type="text" size="20" default="" label="Hover text" description="Sometimes, you might just want to show the abbreviated names on the x-axis (to avoid cluttering or to make the chart look more legible). However, you still have the option of showing the full name as tool tip using this attribute. Like, in our example, we're showing the abbreviated form &amp;quote;Jan&amp;quote; on our x-axis, but the full word &amp;quote;January&amp;quote; is shown as the tool tip." />      
+      	<param name="link" type="text" size="20" default="" label="Link" description="This attribute defines the hotspots in your graph. The hotspots are links over the data sets. Please note that you'll need to URL Encode all the special characters (like ? and &amp;) present in the link.All the server side scripting languages provide a generic function to URL Encode any string - like in ASP and ASP.NET, weve Server.URLEncode(strURL) and so on. To open a link in a new window, just put n- in front of the link e.g., link=&amp;quote;n-ShowDetails.asp?Month=Jan&amp;quote;." />
+		<param name="alpha" type="text" size="20" default="" label="Alpha" description="This attribute determines the transparency of a data set. The range for this attribute is 0 to 100. 0 means complete transparency (the data set won’t be shown on the graph) and 100 means opaque. This option is useful when you want to highlight a particular set of data." />      
+		<param name="showName" type="list" default="" label="Show Name" description="This attribute can either the value of 0 or 1. A value of 1 indicates that the name of this data set will be displayed in the graph whereas 0 indicates it won't be displayed. This attribute is particular useful when you want to show/hide names of alternate data items or say every x (th) data item." >
+           <option value="">- Default -</option>
+           <option value="0">NO</option>
+           <option value="1">YES</option>
+        </param>   
+        <param name="isSliced" type="list" default="" label="Is Sliced" description="This attribute determines whether the pie appears as a part of the total circle or is sliced out as an individual item (highlited)." >
+           <option value="">- Default -</option>
+           <option value="0">NO</option>
+           <option value="1">YES</option>
+        </param>   
+	</params>      
+</form>

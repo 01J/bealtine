@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6.0" type="sef_ext">
+	<name>Mail To</name>
+	<author>ARTIO s.r.o.</author>
+	<creationDate>22. June 2010</creationDate>
+	<copyright>ARTIO s.r.o.</copyright>
+	<license>GNU/GPLv3 http://www.artio.net/license/gnu-general-public-license</license>
+	<authorEmail>info@artio.net</authorEmail>
+	<authorUrl>www.artio.net</authorUrl>
+	<version>3.0.1</version>
+	<description>Adds SEO support for Mail To component.</description>
+	<files>
+		<filename sef_ext="ext_joomsef4_mailto">com_mailto.php</filename>
+	</files>
+	<updateservers>
+          <server name="ext_joomsef4_mailto" type="sef_update">http://www.artio.net/joomla-updates/list/ext_joomsef4_mailto.xml</server>
+  	</updateservers>
+</extension>

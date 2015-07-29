@@ -1,0 +1,124 @@
+/* Divs */
+.fltlft {
+    float: left;
+}
+
+.fltrt {
+    float: right;
+}
+
+fieldset.adminform {
+    margin: 0px 10px;
+}
+
+/* Tabs */
+dl.tabs {
+    margin-bottom: 18px;
+    border-bottom: 1px solid #dddddd;
+    display: table;
+    line-height: 0;
+    clear: both;
+}
+
+dl.tabs dt h3 {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+dt.tabs {
+    float: left;
+    line-height: 18px;
+    margin-bottom: -1px;
+}
+
+dt.tabs a {
+    display: block;
+    padding: 8px 12px;
+    margin-right: 2px;
+    line-height: 18px;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+dt.tabs a:hover {
+    background-color: #eeeeee;
+    text-decoration: none;
+    border-color: #eeeeee #eeeeee #dddddd;
+}
+
+dl.tabs dt.open a,
+dl.tabs dt.open a:hover {
+    background-color: #ffffff;
+    border-color: #dddddd #dddddd transparent;
+    border-style: solid;
+    border-width: 1px;
+    color: #555555;
+    cursor: default;
+}
+
+/* Sliders */
+div.panel {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-bottom: 3px;
+}
+
+div.panel h3 {
+    font-size: 1em;
+    margin: 0px;
+}
+
+div.panel h3 a {
+    display: block;
+    padding: 5px 0px 5px 10px;
+}
+
+/* Icons */
+.cpanel div.icon,
+#cpanel div.icon {
+    float: left;
+    margin: 0px 15px 15px 0px;
+    text-align: center;
+}
+
+.cpanel div.icon a,
+#cpanel div.icon a {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    width: 126px;
+    height: 110px;
+    text-decoration: none;
+    vertical-align: middle;
+    color: #565656;
+}
+
+.cpanel div.icon a:hover,
+#cpanel div.icon a:hover,
+.cpanel div.icon a:focus,
+#cpanel div.icon a:focus,
+.cpanel div.icon a:active,
+#cpanel div.icon a:active {
+    border-bottom-left-radius: 50% 20px;
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+}
+
+.cpanel img,
+#cpanel img {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.cpanel span,
+#cpanel span {
+    display: block;
+    text-align: center;
+}
+
+/* Date selector */
+.input-append {
+    display: inline;
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `#__sefurls` ADD COLUMN `metacustom` TEXT AFTER `metagoogle`;

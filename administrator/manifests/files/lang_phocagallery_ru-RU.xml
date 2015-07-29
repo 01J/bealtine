@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5" method="upgrade">
+        <name>Russian Language Pack for PhocaGallery</name>
+        <author>HiopsNerevar</author>
+        <creationDate>28.10.2013</creationDate>
+        <authorUrl>http://daoblog.ru</authorUrl>
+        <version>4.0.0.5</version>
+        <description>PhocaGallery Russian Language Package</description>
+        <fileset>
+                <files folder="ru-RU" target="administrator/language/ru-RU">
+                        <filename>ru-RU.com_phocagallery.ini</filename>
+                        <filename>ru-RU.com_phocagallery.sys.ini</filename>
+						<filename>ru-RU.plg_content_phocagallery.ini</filename>
+                        <filename>ru-RU.plg_content_phocagallery.sys.ini</filename>
+						<filename>ru-RU.plg_editors-xtd_phocagallery.ini</filename>
+                        <filename>ru-RU.plg_editors-xtd_phocagallery.sys.ini</filename>
+						<filename>ru-RU.plg_search_phocagallery.ini</filename>
+                        <filename>ru-RU.plg_search_phocagallery.sys.ini</filename>
+						<filename>ru-RU.mod_phocagallery_menu.sys.ini</filename>
+						<filename>ru-RU.mod_phocagallery_menu.ini</filename>
+                </files>
+                <files folder="ru-RU" target="language/ru-RU">
+                        <filename>ru-RU.com_phocagallery.ini</filename>
+                        <filename>ru-RU.com_phocagallery.sys.ini</filename>
+                        <filename>ru-RU.mod_phocagallery_image.ini</filename>
+						<filename>ru-RU.mod_phocagallery_image.sys.ini</filename>
+                        <filename>ru-RU.mod_phocagallery_tree.ini</filename>
+						<filename>ru-RU.mod_phocagallery_tree.sys.ini</filename>
+						<filename>ru-RU.plg_content_phocagallery.ini</filename>
+						<filename>ru-RU.plg_content_phocagallery.sys.ini</filename>
+						<filename>ru-RU.plg_editors-xtd_phocagallery.ini</filename>
+                        <filename>ru-RU.plg_editors-xtd_phocagallery.sys.ini</filename>
+						<filename>ru-RU.plg_search_phocagallery.ini</filename>
+                        <filename>ru-RU.plg_search_phocagallery.sys.ini</filename>
+                </files>
+        </fileset>
+<updateservers>
+		<server type="collection" priority="1" name="Phoca Russia Updates">http://daoblog.ru/files/phocatranslate/translations.xml</server>
+</updateservers>
+</extension>

@@ -1,0 +1,23 @@
+/*Videobox*/
+#vbOverlay { position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: #000; cursor: pointer; }
+#vbCenter, #vbBottomContainer { position: absolute; z-index: 9999; overflow: hidden; background-color: #fff; border: 10px solid #fff; box-sizing: content-box; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; }
+#vbBottomContainer { margin-top: 10px; }
+#vbVideo, #vbVideo5{ position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-color: black; }
+#vbBottom { font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; font-size: 10px; color: #13242A; line-height: 1.4em; text-align: left; }
+#vbCloseLink { display: block; float: right; width: 66px; height: 22px; background: transparent url(closelabel.gif) no-repeat center; margin: 5px 0; outline: none; }
+#vbCaption, #vbNumber { margin-right: 71px;}
+#vbCaption { font-weight: bold; font-style: italic; }
+
+/*Inline player*/
+#vbiPlayer {display: inline-block;vertical-align: top;max-width: 100%;overflow: visible !important;position: relative;margin-bottom: 10px;}
+#vbiCloseLink {display: block;width: 16px;height: 16px;background: url(close.png) no-repeat;z-index: 5000;position: absolute;right: -7px;top: -7px;padding: 0;}
+#vbiCloseLink:hover {background: url(close_h.png) no-repeat;}
+#vbiVideoCont {overflow: hidden;max-width: 100%; width: auto \9; -ms-interpolation-mode: bicubic;  border: 0;  border-radius: 0px;  box-shadow: 0 0 0 4px #FFF, 0 0 0 5px #CCC, 2px 2px 5px 6px rgba(0,0,0,0.2);  margin: 0px; }
+#vbiVideo {width: 100%;height: 100%;float: left;background: #000;}
+#vbiCaption{display: block;font-weight: bold;padding: 5px 5px 0;}
+#vbiPadding { padding: 5px; padding-bottom: 7px; }
+
+/*Adittional styling*/
+.vb_videoSizer { position: relative; }
+.vb_videoSizer>iframe { position: absolute; top: 0; left: 0; }
+.vb_videoSizer>img, #vbiSizer { display: block !important; border: none !important; background: none !important; box-shadow: none !important; width: 100% !important; height: auto !important; padding: 0 !important; margin: 0 !important; }
